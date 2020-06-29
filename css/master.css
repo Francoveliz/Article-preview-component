@@ -1,0 +1,129 @@
+body {
+  font-family: font-family: 'Manrope', sans-serif;
+}
+
+.main {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: hsl(210, 46%, 95%);
+}
+
+.article-container {
+  width: 87.2%;
+  height: 76.91%;
+  border-radius: .5rem;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+}
+
+.img-container {
+  width: 100%;
+  height: 40%;
+  overflow: hidden;
+  border-radius: .5rem .5rem 0 0;
+}
+
+.img-container img {
+  width: 100%;
+}
+
+.content {
+  height: 15.65rem;
+  font-size: 0.65rem;
+}
+
+.text {
+  height: 80%;
+  width: 100%;
+  padding: 1.6rem;
+}
+
+.bold-text {
+  font-size: 0.75rem;
+  line-height: 165.2%;
+  font-weight: bold;
+  letter-spacing: 6.5%;
+  color: hsl(217, 19%, 35%);
+}
+
+.regular-text {
+  font-size: 0.65rem;
+  line-height: 152.2%;
+  letter-spacing: 2.5%;
+  color: hsl(214, 17%, 51%);
+}
+
+.profile-container {
+  width: 100%;
+  height: 20%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.6rem;
+}
+
+#share-bar {
+  visibility: hidden;
+  position: absolute;
+  width: 100%;
+  height: 20%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.6rem;
+  background: hsl(217, 19%, 35%);
+  border-radius: 0 0 .5rem .5rem;
+}
+
+#share-bar p {
+  margin: 0;
+  color: hsl(214, 17%, 51%);
+  text-transform: uppercase;
+  font-size: .75rem;
+  font-weight: bold;
+  letter-spacing: .3rem;
+}
+
+#dark-share-button {
+  background: hsl(214, 17%, 51%);
+  color: #fff;
+}
+
+.icono-sm {
+  color: #fff;
+  font-size: 1.2rem;
+}
+
+.profile-picture {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%
+}
+
+.info {
+  margin-left: -1rem;
+}
+
+.info p {
+  margin: auto;
+  line-height: 1.1rem;
+}
+
+.info span {
+  line-height: 0;
+}
+
+button {
+  border-radius: 50%;
+  outline: none;
+  background: hsl(210, 46%, 95%);
+  width: 1.6rem;
+  height: 1.6rem;
+  border: 0;
+}
