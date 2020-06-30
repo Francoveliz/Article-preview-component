@@ -1,58 +1,43 @@
+
 body {
-  font-family: font-family: 'Manrope', sans-serif;
-min-height: 100vh;
-width: 100%;
-
-display: flex;
-justify-content: center;
-align-items: center;
-
-}
-
-.main {
-  min-height: 100vh;
-  width: 100%;
+  font-family: font-family: 'Manrope', sans-serif !important;
   background: hsl(210, 46%, 95%);
-
-
 }
 
-.article-container {
-  margin-left: auto;
-  margin-right: auto;
-margin-top:74px;
-
-   width:327px;
-  border-radius: .5rem;
-  background: #fff;
+.main{
+  min-height: 100vh;
+  background: hsl(210, 46%, 95%);
 }
-
-.img-container {
-  width: 100%;
-  height: 200px;
-  overflow: hidden;
-  border-radius: .5rem .5rem 0 0;
-}
-
-.img-container img {
+.card{
+margin: 0px auto;
+  max-width: 329px;
   width: 100%;
 }
-
-.content {
-  height: 303px;
-  font-size: 0.65rem;
-
+.content{
+  display: flex;
+  flex-direction: column;
 }
-
-.text {
-  height: 240px;
+.banner-container{
+max-width: 329px;
+width: 100%;
+height: 200px;
+object-fit: cover;
+}
+.banner-container img{
+  width: 100%;
+  max-width:100%;
+  height: 100%;
+}
+.share-bar{
+  display:none;
+}
+.text{
+  max-width: 329px;
   width: 100%;
   padding: 33px;
-
 }
-
 .bold-text {
-  font-size:15px;
+  font-size: 0.75rem;
   line-height: 165.2%;
   font-weight: bold;
   letter-spacing: 6.5%;
@@ -60,79 +45,51 @@ margin-top:74px;
 }
 
 .regular-text {
-  font-size: 13px;
+  font-size: .65rem;
   line-height: 152.2%;
   letter-spacing: 2.5%;
   color: hsl(214, 17%, 51%);
 }
 
-.profile-container {
+.profile-bar {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  max-width: 329px;
   width: 100%;
   height: 63px;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
   align-items: center;
-  padding: 33px;
+padding: 0px 33px 22px 33px;
 }
 
-#share-bar {
-  visibility: hidden;
-  position: absolute;
-  width: 100%;
-  height:63px;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  padding: 33px;
-  background: hsl(217, 19%, 35%);
-  border-radius: 0 0 .5rem .5rem;
-}
-
-#share-bar p {
-  margin: 0;
-  color: hsl(214, 17%, 51%);
-  text-transform: uppercase;
-  font-size: .75rem;
-  font-weight: bold;
-  letter-spacing: .3rem;
-}
-
-#dark-share-button {
-  background: hsl(214, 17%, 51%);
-  color: #fff;
-}
-
-.icono-sm {
-  color: #fff;
-  font-size: 1.2rem;
-}
-
-.profile-picture {
+.profile-bar img {
   width: 2rem;
   height: 2rem;
-  border-radius: 50%
+  border-radius: 50%;
+  margin-right: 1rem;
 }
 
-.info {
-  margin-left: -1rem;
+.profile-data {
+  display: flex;
+  flex-direction: column;
 }
 
-.info p {
-  margin: auto;
-  line-height: 1.1rem;
-}
-
-.info span {
-  line-height: 0;
+.profile-data p {
+  margin: 0;
 }
 
 button {
+  border: none;
   border-radius: 50%;
-  outline: none;
   background: hsl(210, 46%, 95%);
   width: 1.6rem;
   height: 1.6rem;
-  border: 0;
+}
+
+.share-bar p{
+  margin: 0;
+}
+.icono-sm {
+  color: #fff;
+  font-size: 1rem;
 }

@@ -11,3 +11,8 @@ function shareHide() {
   document.getElementById("share-bar").style.visibility = "hidden";
   document.getElementById("share-bar").style.position = "absolute";
 }
+
+function test(){
+
+alert("hi");
+}
