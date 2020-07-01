@@ -6,10 +6,15 @@ body {
 .main {
   min-height: 100vh;
   background: hsl(210, 46%, 95%);
+  max-height: 667px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+
 }
 
 .card {
-  margin: 73px auto 0 auto;
+  margin: 0 auto 0 auto;
   max-width: 329px;
   width: 100%;
 }
@@ -182,8 +187,14 @@ button {
 }
 
 @media (min-width:770px) {
+  .main{
+    max-height: 800px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+  }
   .card {
-    margin: 260px auto auto auto;
+
     display: flex;
     flex-direction: row;
     width: 100%;
